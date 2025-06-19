@@ -21,7 +21,7 @@ useradd  joao -c "Joao da silva" -m -s /bin/bash -p $(openssl passwd -6 Senha123
 
 useradd  debora -c "Debora Costa" -m -s /bin/bash -p $(openssl passwd -6 Senha123) -G GRP_VEN
 useradd  sebastiana -c "Sebastianas Peri" -m -s /bin/bash -p $(openssl passwd -6 Senha123) -G GRP_VEN
-useradd  Roberto -c "Roberto Carlos" -m -s /bin/bash -p $(openssl passwd -6 Senha123) -G GRP_VEN
+useradd  roberto -c "Roberto Carlos" -m -s /bin/bash -p $(openssl passwd -6 Senha123) -G GRP_VEN
 
 useradd  josefina -c "Josefina Leticia" -m -s /bin/bash -p $(openssl passwd -6 Senha123) -G GRP_SEC
 useradd  amanda -c "Amanda Condessa" -m -s /bin/bash -p $(openssl passwd -6 Senha123) -G GRP_SEC
